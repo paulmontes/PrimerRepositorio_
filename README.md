@@ -1,8 +1,38 @@
-# Tienda Don Pedro
+# 🛒 Tienda Don Pedro
 
-Tienda de barrio en Itagüí. Don Pedro quiere llevar el control de sus productos y de sus clientes.
+Proyecto de práctica con Git y GitHub. Guarda los productos, clientes y ventas de la tienda de Don Pedro, y un programa en Python que muestra el inventario, la cantidad de productos y su valor total.
 
-## Archivos
+## Productos
 
-- `productos.txt`: productos y precios.
-- `clientes.txt`: clientes frecuentes.
+| Producto | Precio |
+|---|---|
+| Arroz 1kg | $4.500 |
+| Leche 1L | $4.500 |
+| (producto 3) | $0 |
+| (producto 4) | $0 |
+| (producto 5) | $0 |
+| (producto 6) | $0 |
+
+## Estructura
+
+```
+tienda-don-pedro/
+├── datos/
+│   ├── productos.txt
+│   ├── clientes.txt
+│   └── ventas.txt
+├── src/
+│   └── main.py
+├── .gitignore
+└── README.md
+```
+
+## Cómo ejecutarlo
+
+```bash
+python src/main.py
+```
+
+## Autor
+
+Paul Montes - [github.com/paulmontes](https://github.com/paulmontes)
